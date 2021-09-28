@@ -3,6 +3,7 @@ import "./ExpenseDate.css";
 function ExpenseDate(props) {
   const day = props.date.toLocaleString("en-US", { day: "2-digit" });
   const month = props.date.toLocaleString("en-US", { month: "long" });
+  console.log(props.date);
   const year = props.date.getFullYear();
 
   return (
