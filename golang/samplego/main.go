@@ -9,4 +9,5 @@ func main() {
 	printVariables()
 	printTypes()
 	demoTypeConversion()
+	demoConstants()
 }
