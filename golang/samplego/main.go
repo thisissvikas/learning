@@ -8,4 +8,5 @@ func main() {
 	fmt.Println("Hello World")
 	printVariables()
 	printTypes()
+	demoTypeConversion()
 }

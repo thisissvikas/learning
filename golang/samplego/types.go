@@ -76,3 +76,17 @@ func printTypes() {
 	var name string = first + " " + last
 	fmt.Println("Full Name is ", name)
 }
+
+func demoTypeConversion() {
+
+	fmt.Println("\n***** TYPE CONVERSION *****")
+	i := 55   //int
+	j := 67.8 //float64
+	// sum := i + j //int + float64 not allowed
+	sum := i + int(j)
+	fmt.Println(sum)
+
+	i1 := 10
+	var j1 float64 = float64(i1) //this statement will not work without explicit conversion
+	fmt.Println("j1", j1)
+}
