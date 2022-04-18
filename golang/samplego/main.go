@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"samplego/samplego/packagedemo"
 )
 
 func main() {
@@ -10,4 +11,6 @@ func main() {
 	printTypes()
 	demoTypeConversion()
 	demoConstants()
+	demoFunctions()
+	packagedemo.DemoFunctionNew()
 }
